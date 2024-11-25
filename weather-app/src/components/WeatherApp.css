@@ -1,0 +1,88 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    width: 30rem;
+    height: auto;
+    margin: auto;
+    border-radius: .5rem;
+    background-color: rgba(14, 30, 102, 0.5);
+    
+}
+h4{
+    padding: .5rem;
+    text-align: center;
+    color: rgb(214, 245, 234);
+}
+
+.input{
+    display: flex;
+    justify-content: center;
+    gap: .85rem;
+    padding: 1rem;
+    margin-bottom: 1rem;
+}
+
+.city-input{
+    border-radius: .5rem;
+    border: none;
+    padding: .3rem;
+    width: 65%;
+}
+.search-icon{
+    font-size: large;
+    height: 2.1rem;
+    padding: .5rem;
+    background-color: rgb(210, 230, 243);
+    border-radius: 20%;
+    border: none;
+    cursor: pointer;
+}
+.search-icon svg{
+    margin-bottom: .4rem;
+}
+.weather-info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 4rem;
+}
+.sub-weather-info1{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 2rem;
+}
+.sub-weather-info1 svg{
+    height: 4rem;
+    width: 4rem;
+    color: rgb(215, 225, 247);
+}
+.sub-weather-info2{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 4rem;
+    color: aliceblue;
+
+}
+.humidity{
+    display: flex;
+    flex-direction: row;
+
+}
+.humidity svg{
+    font-size: xx-large;
+    margin-top: .3rem;
+}
+.wind{
+    display: flex;
+    flex-direction: row;
+
+}
+.wind svg{
+    font-size: xx-large;
+    margin-top: .3rem;
+}
+.wind-info .p1{
+    font-size: x-small;
+}
+
